@@ -24,7 +24,7 @@ KNN employs a feature learning approach, in which it learns the placements of fe
 Jenkins is a self-contained, open source automation server that may be used to automate a variety of operations related to software development, testing, and delivery. Jenkins can be installed via native system packages, Docker, or even run solo on any machine that has the Java Runtime Environment (JRE).
 
 ## Git
-![Git](https://mpng.subpng.com/20180824/xrj/kisspng-computer-icons-pro-git-portable-network-graphics-i-git-book-pro-git-app-app-5b80546c0b1311.5417567715351368760454.jpg)
+![Git](https://image.pngaaa.com/551/4725551-small.png)
 
 Git is a free and open source distributed version control system that can handle everything from tiny to very large projects with ease. Git is by far the most popular modern version control system in use today. Git is an example of a distributed version control system (DVCS) because it has a distributed architecture (hence Distributed Version Control System). Rather than having a single repository for the whole version history of the software, as is the case with once-popular version control systems like CVS or Subversion (commonly known as SVN), Git allows each developer's working copy of the code to serve as a repository for all changes.
 
