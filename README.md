@@ -29,6 +29,8 @@ Jenkins is a self-contained, open source automation server that may be used to a
 Git is a free and open source distributed version control system that can handle everything from tiny to very large projects with ease. Git is by far the most popular modern version control system in use today. Git is an example of a distributed version control system (DVCS) because it has a distributed architecture (hence Distributed Version Control System). Rather than having a single repository for the whole version history of the software, as is the case with once-popular version control systems like CVS or Subversion (commonly known as SVN), Git allows each developer's working copy of the code to serve as a repository for all changes.
 
 ## Docker
+![Git](https://d1.awsstatic.com/acs/characters/Logos/Docker-Logo_Horizontel_279x131.b8a5c41e56b77706656d61080f6a0217a3ba356d.png)
+
 Docker is a programme that uses containers to make it easier to construct, deploy, and operate applications. Containers enable a developer to bundle a programme with all of its components, including libraries and other dependencies, and deliver it as a single package. The developer may feel comfortable that the application will work on any other Linux machine, independent of any specific settings the machine may have that differ from the machine used for authoring and testing the code, owing to the container.
 
 # Project Explanation
