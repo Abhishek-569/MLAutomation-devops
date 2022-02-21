@@ -20,7 +20,7 @@ KNN employs a feature learning approach, in which it learns the placements of fe
 
 ## Jenkins
 
-![Git](https://pngset.com/images/jenkins-logo-gray-world-of-warcraft-transparent-png-1096642.png)
+![Git](https://cdn.icon-icons.com/icons2/2699/PNG/512/jenkins_logo_icon_167854.png)
 
 Jenkins is a self-contained, open source automation server that may be used to automate a variety of operations related to software development, testing, and delivery. Jenkins can be installed via native system packages, Docker, or even run solo on any machine that has the Java Runtime Environment (JRE).
 
