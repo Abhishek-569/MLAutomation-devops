@@ -24,7 +24,7 @@ KNN employs a feature learning approach, in which it learns the placements of fe
 Jenkins is a self-contained, open source automation server that may be used to automate a variety of operations related to software development, testing, and delivery. Jenkins can be installed via native system packages, Docker, or even run solo on any machine that has the Java Runtime Environment (JRE).
 
 ## Git
-![Git](https://image.pngaaa.com/551/4725551-small.png)
+![Git](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png)
 
 Git is a free and open source distributed version control system that can handle everything from tiny to very large projects with ease. Git is by far the most popular modern version control system in use today. Git is an example of a distributed version control system (DVCS) because it has a distributed architecture (hence Distributed Version Control System). Rather than having a single repository for the whole version history of the software, as is the case with once-popular version control systems like CVS or Subversion (commonly known as SVN), Git allows each developer's working copy of the code to serve as a repository for all changes.
 
@@ -38,6 +38,11 @@ The dataset utilised in the Machine Learning portion was based on the age of peo
 We created a number of positions to deal with infrastructure in a phased approach.
 
 ## Job1 (GitHub)
+![Git](Screenshots/job1.1.PNG)
+![Git](Screenshots/job1.2.PNG)
+![Git](Screenshots/job1.PNG)
+
+
 
 
 This job is a lot easier than the previous one. This work necessitates the installation of Jenkins and Git on your machine. In my local Git, I added a 'hook' in the 'post-commit' file that will automatically push any file committed by the developer to its 'GitHub repository.' Then, in the second phase, I had Jenkins configured to use 'Poll SCM,' which continuously checking at my repository for any changes made, and once it found any, it would download them to its Jenkins workspace, which I asked it to copy to a certain directory.
