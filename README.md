@@ -1,5 +1,5 @@
 ![Git](Screenshots/INTRO.png)
-![Git](Screenshots/INTRP3.png)
+![Git](Screenshots/INTRO3.png)
 # MLAutomation-devops
 Machine Learning and DevOps are combined in this project.
 
