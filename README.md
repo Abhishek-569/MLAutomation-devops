@@ -44,8 +44,10 @@ We created a number of positions to deal with infrastructure in a phased approac
 
 
 
-
 This job is a lot easier than the previous one. This work necessitates the installation of Jenkins and Git on your machine. In my local Git, I added a 'hook' in the 'post-commit' file that will automatically push any file committed by the developer to its 'GitHub repository.' Then, in the second phase, I had Jenkins configured to use 'Poll SCM,' which continuously checking at my repository for any changes made, and once it found any, it would download them to its Jenkins workspace, which I asked it to copy to a certain directory.
+![Git](Screenshots/job1.4.PNG)
+![Git](Screenshots/job1.3.PNG)
+
 
 ## Job2 ( ContainerUp ) 
 This job gets complex compared to the previous one. In this take was to take run the DockerFile containing all the details to launch our own container image containing especially that program which the programmer just sent and `setting up the whole infrastructure just for that single program.` Here first we are `checking` that no image is already running under the same name which might cause a conflict so not only for the image, but also for the container and the volume we first checked if any with same name is present, if yes then remove it and launch a new one. A new completely empty one which is made only to host the files of this new project given by developer. Name of the image is `production:latest` and container is `mlops` and the volume is `mlvol.`
