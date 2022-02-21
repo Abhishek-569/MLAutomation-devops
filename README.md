@@ -72,8 +72,27 @@ This job gets complex compared to the previous one. In this take was to take run
 This is the most critical and final portion of the pipeline. The container that was created in the previous task is switched on, and a'script is injected' into it before it is run. The model's training results are examined. We check to see if the code is working properly; otherwise, it would have 'thrown an error' and failed. The resultant model is then 'checked for accuracy.'
 Well yes, the most part is achieved by a script running inside it because I am `not using any docker plugin` in Jenkins but doing it with what we already have and this we have a major problem which is `container is another O.S.` and Jenkins is running in another O.S. so I execute the commands in container the same way we usually do in the O.S. where we have Jenkins installed. It was performed with the `exec command` in docker where we sent multiple commands separated with semi-colon without getting inside it.
 
+
+![Git](Screenshots/job3.3.PNG)
+
 ### Notification
 Finally, there's the Notification system, which incorporates a 'email method.' I have created an email system that delivers emails to developers in three different scenarios. First, before beginning this job, which means we've'successfully created' the environment and are now ready to evaluate the model. Second, in the event of any 'failure,' because this would imply that the evaluation failed, indicating a failure in the execution of new code created as a result of the improvement improvements. The final one states that all jobs have been'successfully adjusted,' that we have now achieved more than '90 percent accuracy,' and that everything is ready in the 'allotted container.'
+
+![Git](Screenshots/notify1.PNG)
+![Git](Screenshots/notify2.PNG)
+![Git](Screenshots/notify3.PNG)
+![Git](Screenshots/notify4.PNG)
+
+#### Before Build
+![Git](Screenshots/final.PNG)
+
+#### FAILURE
+![Git](Screenshots/failure.PNG)
+
+#### SUCCESS
+![Git](Screenshots/final1.PNG)
+![Git](Screenshots/final3.PNG)
+
 
 # DockerFile
 Created DockerFile to start our own image with a complete environment tailored to the developer's software. 'CentOS' is the operating system I used for model training; however, you can also use Ubuntu, which has a large Machine Learning community. Then I installed 'python3', the programming language in which the programme is written, as well as the libraries required by any KNN software. Then we created a new directory that will specifically house our developer's code and named it a 'working directory,' which will be the default place when we begin this container.Then I copied all of the scripts and files that the script requested. Finally, run 'python interpreter' to run the code and save the results in a file so we can study them for any areas where the code may be improved. Finally, it gives us a 'bash shell' that we can use to perform any commands inside the operating container.
