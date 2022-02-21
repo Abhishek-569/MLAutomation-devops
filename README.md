@@ -5,8 +5,8 @@ Machine Learning and DevOps are combined in this project.
 
 This project involves the combination of Machine Learning with DevOps. In Machine Learning, I used the KNN (K Nearest Neighbor) algorithm to solve a clustering problem, then linked it with DevOps tools to automate the testing process and, if possible, improve accuracy.
 
-When we have a clustering-related problem to address, we employ the KNN machine learning algorithm. As an example, suppose you create groups and then categorise the datapoints within those groups based on some parameters or client needs.
-KNN does not train the model in the traditional way, with optimizers, epochs, and so on. It generates a cluster map by grouping datapoints and includes a predicted column with values ranging from 1 to the number of clusters, indicating which group this entry belongs to. If you ask it to make a forecast, it will group the characteristics into clusters to determine which group these values belong to and then make a prediction based on that group.
+![Git](Screenshots/INTRO2.1.PNG)
+Same pipeline but a different view.
 
 
 # In Machine Learning:
@@ -19,6 +19,8 @@ KNN employs a feature learning approach, in which it learns the placements of fe
 # In DevOps
 
 ## Jenkins
+
+![Git](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Jenkins_logo_with_title.svg/2560px-Jenkins_logo_with_title.svg.png)
 Jenkins is a self-contained, open source automation server that may be used to automate a variety of operations related to software development, testing, and delivery. Jenkins can be installed via native system packages, Docker, or even run solo on any machine that has the Java Runtime Environment (JRE).
 
 ## Git
