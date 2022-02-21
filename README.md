@@ -63,6 +63,12 @@ This job gets complex compared to the previous one. In this take was to take run
 
 
 ## Job3 ( Build_IncAccuracy )
+
+![Git](Screenshots/job3.1.PNG)
+![Git](Screenshots/job3.2.PNG)
+
+
+
 This is the most critical and final portion of the pipeline. The container that was created in the previous task is switched on, and a'script is injected' into it before it is run. The model's training results are examined. We check to see if the code is working properly; otherwise, it would have 'thrown an error' and failed. The resultant model is then 'checked for accuracy.'
 Well yes, the most part is achieved by a script running inside it because I am `not using any docker plugin` in Jenkins but doing it with what we already have and this we have a major problem which is `container is another O.S.` and Jenkins is running in another O.S. so I execute the commands in container the same way we usually do in the O.S. where we have Jenkins installed. It was performed with the `exec command` in docker where we sent multiple commands separated with semi-colon without getting inside it.
 
