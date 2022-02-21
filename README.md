@@ -76,7 +76,7 @@ Well yes, the most part is achieved by a script running inside it because I am `
 
 ![Git](Screenshots/job3.3.PNG)
 
-### Notification
+### Notification 🔔
 Finally, there's the Notification system, which incorporates a 'email method.' I have created an email system that delivers emails to developers in three different scenarios. First, before beginning this job, which means we've'successfully created' the environment and are now ready to evaluate the model. Second, in the event of any 'failure,' because this would imply that the evaluation failed, indicating a failure in the execution of new code created as a result of the improvement improvements. The final one states that all jobs have been'successfully adjusted,' that we have now achieved more than '90 percent accuracy,' and that everything is ready in the 'allotted container.'
 
 ![Git](Screenshots/notify1.PNG)
