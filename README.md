@@ -5,7 +5,7 @@ Machine Learning and DevOps are combined in this project.
 
 This project involves the combination of Machine Learning with DevOps. In Machine Learning, I used the KNN (K Nearest Neighbor) algorithm to solve a clustering problem, then linked it with DevOps tools to automate the testing process and, if possible, improve accuracy.
 
-![Git](Screenshots/INTRO2.1.PNG)
+![Git](Screenshots/intro2.1.PNG)
 Same pipeline but a different view.
 
 
@@ -24,6 +24,7 @@ KNN employs a feature learning approach, in which it learns the placements of fe
 Jenkins is a self-contained, open source automation server that may be used to automate a variety of operations related to software development, testing, and delivery. Jenkins can be installed via native system packages, Docker, or even run solo on any machine that has the Java Runtime Environment (JRE).
 
 ## Git
+![Git](https://www.cloudsavvyit.com/p/uploads/2019/10/e713ed70-1.png?width=1198&trim=1,1&bg-color=000&pad=1,1)
 Git is a free and open source distributed version control system that can handle everything from tiny to very large projects with ease. Git is by far the most popular modern version control system in use today. Git is an example of a distributed version control system (DVCS) because it has a distributed architecture (hence Distributed Version Control System). Rather than having a single repository for the whole version history of the software, as is the case with once-popular version control systems like CVS or Subversion (commonly known as SVN), Git allows each developer's working copy of the code to serve as a repository for all changes.
 
 ## Docker
